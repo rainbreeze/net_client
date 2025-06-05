@@ -1,7 +1,7 @@
 import socket
 
 SERVER_IP = "172.31.90.54"
-SERVER_PORT = 12345  # 서버에서 열어둔 포트
+SERVER_PORT = 12345
 
 def send_command(command):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
